@@ -1,0 +1,19 @@
+{
+  "name": "shenhuanjie-app-dev",
+  "plugins": [
+    {
+      "name": "app-development-workbench",
+      "source": "./app-development-workbench",
+      "version": "0.1.0",
+      "description": "Prototype-to-delivery iOS app development workbench with 12 Chinese skills, XcodeBuildMCP simulator tooling, evidence-based acceptance.",
+      "displayName": "App 开发工作台",
+      "displayName_i18n": {
+        "zh-CN": "App 开发工作台"
+      },
+      "description_i18n": {
+        "zh-CN": "从原型到可运行 iOS App 与后端的开发工具包：12 个中文技能连接项目规则、页面设计、原生实现、服务端和验收；XcodeBuildMCP 提供本地模拟器工具。"
+      },
+      "category": "developer-tools"
+    }
+  ]
+}

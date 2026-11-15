@@ -1,0 +1,35 @@
+{
+  "name": "app-development-workbench",
+  "version": "0.1.0",
+  "description": "从原型探索、交互深化和设计交接，到 SwiftUI 开发、模拟器调试、性能与内存调查、后端构建和跨端验收的 App 开发工作台。12 个中文技能读取项目规则、保持组件复用、按实际运行证据交付。iOS 构建需要 macOS 与 Xcode。",
+  "author": {
+    "name": "AppCraft Lab",
+    "url": "https://github.com/shenhuanjie/app-dev-workbench"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ios",
+    "swiftui",
+    "xcode",
+    "simulator",
+    "prototype",
+    "backend",
+    "zcode"
+  ],
+  "skills": "skills",
+  "mcpServers": {
+    "xcodebuildmcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "xcodebuildmcp@2.7.0",
+        "mcp"
+      ],
+      "env": {
+        "XCODEBUILDMCP_ENABLED_WORKFLOWS": "simulator,ui-automation,debugging,logging",
+        "XCODEBUILDMCP_SENTRY_DISABLED": "true"
+      }
+    }
+  }
+}
